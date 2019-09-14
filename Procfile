@@ -1,1 +1,1 @@
-web: gunicorn ns-portfolio.wsgi
+web: gunicorn gettstarted.wsgi
