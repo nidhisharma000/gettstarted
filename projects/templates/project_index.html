@@ -8,7 +8,7 @@
     <div class="col-md-4">
         <div class="card mb-2">
             <img class="card-img-top" src="{% static project.image %}">
-            <div class="card-body text-truncate" style="max-width: 15px;">
+            <div class="card-body text-truncate maxlength: 15px;">
                 <h5 class="card-title">{{ project.title }}</h5>
                 <p class="card-text">{{ project.description }}</p>
                 <a href="{% url 'project_detail' project.pk %}"
