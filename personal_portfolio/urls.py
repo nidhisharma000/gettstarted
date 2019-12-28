@@ -24,7 +24,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('projects/', include('projects.urls')),
     path('blog/', include('blog.urls')),
+    path('weather/', include('weather.urls')),
     url(r'^$', views.index),
+
 ]
 
 urlpatterns += staticfiles_urlpatterns()
